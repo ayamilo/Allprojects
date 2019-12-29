@@ -3,7 +3,8 @@ package day09;
 public class languagePicker {
     public static void main(String[] args) {
         /*Language Picker :
-// assume you are on the call and you have been given option to be greeted by the language of your choice according to the number you provided
+// assume you are on the call and you have been given option to be greeted
+by the language of your choice according to the number you provided
 Create a variable called languageOption , String variable called greeting
 
         1   —>> "Hello"

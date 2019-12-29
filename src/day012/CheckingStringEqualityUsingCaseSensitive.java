@@ -7,5 +7,10 @@ public class CheckingStringEqualityUsingCaseSensitive {
         System.out.println(myNameCorrect);
         boolean myNameCorrectIgnoreCase=myName.equalsIgnoreCase("kamil");
         System.out.println(myNameCorrectIgnoreCase);
+        String name="mohammed";
+        boolean nameEquality=name.equals("Mohammed");
+        System.out.println(nameEquality);
+        boolean nameEqualityIgnoreCase=name.equalsIgnoreCase("Mohammed");
+        System.out.println(myNameCorrectIgnoreCase);
     }
 }

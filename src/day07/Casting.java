@@ -2,7 +2,8 @@ package day07;
 
 public class Casting {
     public static void main(String[] args) {
-        // Type casting: casting is converting one type to another ie Implicitly(automatically) or Explicitly
+        // Type casting: casting is converting one type to another ie Implicitly(automatically)
+        // or Explicitly
         //there are two types in java
         // primitive and reference
         // primitive type: char, boolean, int, float,double,byte,long,short
@@ -15,6 +16,8 @@ public class Casting {
         // meaning u dont want .99 run and see the result of print out
         int num = (int) 12.99;
         System.out.println(num);
+        int num2= (int) 13.90;
+        System.out.println(num2);
 /*Casting  is converting one data type and storing into different data type
 For example :
 10 is int , it can be stored inside double variable
