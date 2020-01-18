@@ -7,7 +7,7 @@ public class WrapperClassIntro {
 
         // each primitive type has wrapper class that turn it into object so we can treat it as object
 
-        // this is the old not recommended way of create Integer Object
+        // this is the old not recommended way to create Integer Object
         Integer x1 = new Integer(10); // String str = new String("abc");
 
         // valueOf method of Integer class

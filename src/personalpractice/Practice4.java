@@ -1,27 +1,45 @@
 package personalpractice;
 
+import java.util.Scanner;
+
 public class Practice4 {
     public static void main(String[] args) {
-        familyNames();
-    }
-    public static void familyNames(){
-        System.out.println("Rahim");
-        System.out.println("Salma");
-        System.out.println("Rahama");
+        Scanner s = new Scanner(System.in);
 
-        for (int i =40; i>=0 ; i--) {
-            System.out.print("i= "+ i+" ");
+        System.out.println("what is the farthest planet in the solar system:" );
+        System.out.println("a)venus" );
+        System.out.println("b)pluto" );
+        System.out.println("c)neptune" );
 
-if (i%2==1){
-    System.out.println("This is odd number " );
+        String a = s.nextLine();
 
+        //your code here
 
-}else  if (i%2==0){
-    System.out.println("This is even number " );
-}
+        if(a.equals('a')){
+            System.out.println("a is wrong");
+        }else if(a.equals('b')){
+            System.out.println("b is correct");
 
+        }else if(a.equals('c')){
+            System.out.println("c is wrong");
+
+        }else if(a.equals('z')) {
+            System.out.println("z is not a valid answer");
 
         }
 
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
