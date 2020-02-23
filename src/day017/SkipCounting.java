@@ -8,10 +8,7 @@ public class SkipCounting {
         while (counter<30) {
             counter += 3;
             System.out.print(counter + " ");
-
-
-
-
-        }
+//            counter += 3;
+}
     }
 }

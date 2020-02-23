@@ -3,7 +3,7 @@ package officehr;
 public class MuktarOffice01_02_20 {
 
           /*
-    methods practice:
+    methods Practice:
     methods: grouping a series of statements
     1.  write a return method called RemoveDup that accepts a String and removes duplicate values from the String
     Ex:

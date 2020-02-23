@@ -9,7 +9,7 @@ public class ScoreChecker {
          * if the score is between 70-100 -----> you have passed
          * else you have failed
          * */
-        int score =100;
+        int score =-1;
 
 
         if (score < 0 || score > 100) {

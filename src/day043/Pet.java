@@ -14,6 +14,9 @@ public class Pet {
         this.name = name;
     }
 
+    public static void showGeneralPetInfo() {
+    }
+
     public void speak() {
 
         //switch (type.toLowerCase()  ){

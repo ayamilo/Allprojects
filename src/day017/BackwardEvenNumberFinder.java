@@ -8,7 +8,7 @@ public class BackwardEvenNumberFinder {
 
                 System.out.println(num + " is even number ");
             }
-            --num;
+            num--;
         }
     }
 }

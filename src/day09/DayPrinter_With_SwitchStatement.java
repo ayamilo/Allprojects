@@ -1,8 +1,14 @@
 package day09;
 
+import java.util.Scanner;
+
 public class DayPrinter_With_SwitchStatement {
     public static void main(String[] args) {
-        int dayCoda= 4;
+//        Scanner scan= new Scanner(System.in);
+//        System.out.println("please enter your day code");
+//
+//        int dayCoda=scan.nextInt();
+        int dayCoda=1;
         switch(dayCoda){
             case 1:
                 System.out.println("day is monday");

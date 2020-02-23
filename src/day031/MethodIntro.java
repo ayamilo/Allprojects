@@ -12,9 +12,9 @@ public class MethodIntro {
 
 
 
-                System.out.println("Hello World ");
-                System.out.println("My Name is Juma ");
-                System.out.println("I love Java");
+//                System.out.println("Hello World ");
+//                System.out.println("My Name is Juma ");
+//                System.out.println("I love Java");
 
                 sayHello();
 

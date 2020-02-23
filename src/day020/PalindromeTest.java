@@ -16,10 +16,12 @@ public class PalindromeTest {
             String reversedName = "";
 
             for (int x = name.length() - 1; x >= 0; x--) {
-                reversedName = reversedName + name.charAt(x);
+
+                    reversedName= reversedName +  name.charAt(x);
+
             }
 
-            System.out.println("reversedName = " + reversedName);
+            System.out.println("reversedName = " + reversedName );
 
             // MAKE THIS CODE DOES NOT CARE ABOUT SPACES WHILE CHECKING
 

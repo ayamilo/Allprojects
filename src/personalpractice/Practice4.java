@@ -1,36 +1,49 @@
 package personalpractice;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class Practice4 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
 
-        System.out.println("what is the farthest planet in the solar system:" );
-        System.out.println("a)venus" );
-        System.out.println("b)pluto" );
-        System.out.println("c)neptune" );
+        
+        
+        String input = "AAABBBCCC";
+        
+        String nonDuplicates="";
 
-        String a = s.nextLine();
+        for (int i = 0; i <input.length() ; i++) {
+            
+            if(!nonDuplicates.contains(""+input.charAt(i))){
+                nonDuplicates += ""+input.charAt(i);
 
-        //your code here
 
-        if(a.equals('a')){
-            System.out.println("a is wrong");
-        }else if(a.equals('b')){
-            System.out.println("b is correct");
-
-        }else if(a.equals('c')){
-            System.out.println("c is wrong");
-
-        }else if(a.equals('z')) {
-            System.out.println("z is not a valid answer");
+                
+            }
 
         }
+        System.out.println("nonDuplicates = " + nonDuplicates);
+String expectedResult="";
+for(int j =0;j<nonDuplicates.length();j++){
+        int times= 0;
+        for (int i = 0; i <input.length() ; i++) {
+            if(input.substring(i,i+1).equals(nonDuplicates.substring(j,j+1))){
+                times++;
+            }
+
+        }
+        expectedResult+=nonDuplicates.substring(j,j+1)+times;
+
 
     }
+        System.out.println(expectedResult);
+
+
 
 }
+
+}
+
+
 
 
 
